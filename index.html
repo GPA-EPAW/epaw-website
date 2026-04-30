@@ -1,182 +1,1109 @@
-EPAW logo
-EPAW
-Educational & Psychological Alliance for Wellness
-About
-Programs
-Impact
-Partners
-Transparency
-Contact
-Get Help
-Donate
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EPAW | Educational & Psychological Alliance for Wellness</title>
+  <meta name="description" content="EPAW expands access to educational, psychological, and mental health support for underserved children, adults, and families." />
 
-EPAW logo501(C)(3) NONPROFIT EXPANDING ACCESS TO CARE
-Every family deserves access to answers, advocacy, and wellness.
-EPAW removes financial and access barriers so underserved children, adults, and families can receive educational, psychological, and mental health support when they need it most.
+  <style>
+    :root {
+      --black: #0B0B0B;
+      --gold: #C89B3C;
+      --gold-dark: #A6781C;
+      --cream: #F7F5F2;
+      --soft-gold: #F1E6CC;
+      --border: #E8DAB7;
+      --gray: #4B4B4B;
+      --white: #ffffff;
+    }
 
-Get Help
-Donate Now
-Partner With Us
-WHY DONORS GIVE
-The need is real. The solution is practical.
-Many families know something is wrong, but cannot afford the evaluation, counseling, or advocacy support needed to move forward. EPAW turns donor generosity into direct access.
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
-Your gift can fund answers.
-Evaluations, guidance, intervention planning, and parent education.
-Your partnership can build systems.
-Workshops, community screening events, and referral pathways.
-1,000+
-Students, adults, and families to serve through direct support and community education
-$2,600
-Estimated cost of a comprehensive evaluation many families cannot afford without assistance
-4
-Core program pathways designed to remove barriers and expand access
-501(c)(3)
-IRS-recognized tax-exempt nonprofit organization
-ABOUT EPAW
-Built to close the access gap.
-The Educational and Psychological Alliance for Wellness, Inc. exists to provide educational, psychological, and mental health support to individuals and families who may otherwise be unable to access these services.
+    html {
+      scroll-behavior: smooth;
+    }
 
-EPAW focuses on underserved communities, including families with limited financial resources, students with learning or behavioral concerns, and adults seeking clarity, support, and advocacy.
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--cream);
+      color: var(--black);
+      line-height: 1.6;
+    }
 
-Our goal is simple: help people receive the right information, support, and next steps before a challenge becomes a crisis.
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
 
-PROGRAMS
-Fundable programs with measurable impact.
-EPAW organizes its work into clear program pathways so donors, sponsors, and grantmakers can see exactly how support becomes impact.
+    .container {
+      width: min(1180px, calc(100% - 40px));
+      margin: 0 auto;
+    }
 
-🧠
-Evaluation Access Fund
-Helps children, teens, and adults access psychological, psychoeducational, autism, ADHD, learning, and social-emotional evaluations when cost is the primary barrier.
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: rgba(255, 255, 255, 0.96);
+      border-bottom: 1px solid var(--border);
+      backdrop-filter: blur(8px);
+    }
 
-Sponsor an Evaluation
-💬
-Mental Health & Wellness Support
-Provides counseling support, wellness education, referral guidance, and intervention resources for individuals and families navigating emotional or behavioral concerns.
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px 0;
+      gap: 24px;
+    }
 
-Fund Wellness Support
-🎓
-Parent & Student Advocacy Academy
-Equips families with practical tools to understand school supports, IEPs, 504 plans, evaluations, accommodations, and next steps after receiving results.
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      min-width: 260px;
+    }
 
-Support Training
-🤝
-School & Community Partnership Program
-Partners with schools, churches, civic groups, pediatric offices, and community organizations to deliver education, screenings, workshops, and referral pathways.
+    .logo-card {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 10px 14px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 950;
+      color: var(--black);
+    }
 
-Become a Partner
-OUR MODEL
-From concern to clarity.
-Families often begin with confusion, concern, or a school or medical recommendation. EPAW helps them move through a clear pathway of support.
+    .logo-text {
+      font-size: 22px;
+      letter-spacing: -0.04em;
+      line-height: 1;
+    }
 
-1
-Listen to the family’s concern
-2
-Identify the needed support
-3
-Connect the family to evaluation, counseling, training, or advocacy
-4
-Provide practical next steps
-5
-Track outcomes and community impact
-EPAW logo
-DONATE
-Give families access to answers.
-Every donation helps EPAW reduce barriers to evaluations, counseling, family education, and advocacy support.
+    .logo-sub {
+      display: block;
+      font-size: 8px;
+      letter-spacing: 0.03em;
+      color: var(--gold-dark);
+      margin-top: 4px;
+    }
 
-Donate Now
-Start a Fundraiser
-$50
-Provides family education materials and advocacy resources
+    .brand-title {
+      font-size: 20px;
+      font-weight: 950;
+      letter-spacing: -0.03em;
+    }
 
-$150
-Supports a parent consultation or service-navigation session
+    .brand-subtitle {
+      font-size: 12px;
+      color: var(--gray);
+      font-weight: 700;
+    }
 
-$500
-Helps underwrite testing materials, scoring, or clinical review
+    nav {
+      display: flex;
+      gap: 24px;
+      font-size: 14px;
+      font-weight: 800;
+      color: var(--gray);
+    }
 
-$2,600
-Sponsors a comprehensive evaluation for a family in need
+    nav a:hover {
+      color: var(--gold-dark);
+    }
 
-PARTNERS & SPONSORS
-Designed for serious community investment.
-EPAW welcomes mission-aligned partners who want to invest in educational access, mental health, disability advocacy, and community wellness.
+    .actions {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
 
-Corporate sponsors
-Foundations and grantmakers
-Schools and charter networks
-Pediatric and medical practices
-Faith-based and civic organizations
-Individual major donors
-EPAW logo
-Create a named sponsorship fund.
-Sponsors may support evaluation scholarships, parent training cohorts, school-based workshops, community wellness days, or targeted support for specific populations.
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 999px;
+      padding: 12px 22px;
+      font-weight: 900;
+      font-size: 14px;
+      transition: all 0.2s ease;
+      border: 1px solid transparent;
+      cursor: pointer;
+      white-space: nowrap;
+    }
 
-Request Sponsorship Packet
-LEADERSHIP & GOVERNANCE
-Credibility donors can trust.
-EPAW is board-governed and built with the compliance, structure, and stewardship expected of a high-performing nonprofit organization.
+    .btn-primary {
+      background: var(--gold);
+      color: white;
+    }
 
-Request Board Information
-Trust markers
-✓
-IRS-recognized 501(c)(3) nonprofit
-✓
-Board-governed organization
-✓
-Conflict of interest policy and bylaws adopted
-✓
-Mission-aligned with underserved communities
-✓
-Designed for measurable outcomes and responsible stewardship
-TRANSPARENCY
-Responsible stewardship. Clear reporting.
-EPAW is committed to transparent reporting, responsible financial management, and measurable outcomes. As the organization grows, this section will include annual reports, IRS filings, impact dashboards, and financial summaries.
+    .btn-primary:hover {
+      background: var(--gold-dark);
+      transform: translateY(-1px);
+    }
 
-IRS Determination
-Coming soon
-Annual Report
-Coming soon
-Form 990
-Coming soon
-Impact Dashboard
-Coming soon
-Tax-deductibility depends on individual circumstances. Donors should consult their tax advisor regarding charitable contributions.
+    .btn-light {
+      background: white;
+      color: var(--black);
+      border-color: var(--border);
+    }
 
-CONTACT EPAW
-Get help, give help, or build with us.
-Whether you are a family seeking support, a donor ready to give, or an organization interested in partnership, EPAW would love to hear from you.
+    .btn-light:hover {
+      background: var(--soft-gold);
+    }
 
-Email: info@epaw.org
+    .btn-dark-outline {
+      border-color: rgba(255, 255, 255, 0.55);
+      color: white;
+      background: transparent;
+    }
 
-Phone: (XXX) XXX-XXXX
+    .btn-dark-outline:hover {
+      background: rgba(255, 255, 255, 0.1);
+    }
 
-Service Area: Metro Atlanta and surrounding communities
+    .hero {
+      position: relative;
+      overflow: hidden;
+      background: radial-gradient(circle at top right, rgba(200,155,60,0.25), transparent 35%),
+                  radial-gradient(circle at bottom left, rgba(255,255,255,0.09), transparent 30%),
+                  var(--black);
+      color: white;
+      padding: 92px 0 104px;
+    }
 
-Name
-Email
+    .hero-watermark {
+      position: absolute;
+      right: -80px;
+      top: 70px;
+      font-size: 240px;
+      line-height: 1;
+      opacity: 0.035;
+      font-weight: 950;
+      display: none;
+    }
 
-I need support
-Tell us how EPAW can help...
-Send Message
-EPAW logo
-Join the movement to make evaluations, advocacy, and wellness support accessible to every family.
-Give once. Give monthly. Sponsor a family. Fund a program. Build a healthier future with EPAW.
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 52px;
+      align-items: center;
+      position: relative;
+      z-index: 2;
+    }
 
-Donate Now
-Become a Partner
-EPAW logo
-EPAW
-Educational and Psychological Alliance for Wellness, Inc. is an IRS-recognized 501(c)(3) nonprofit expanding access to educational, psychological, and mental health support.
+    .hero .logo-card {
+      margin-bottom: 30px;
+      padding: 18px 22px;
+      border-radius: 28px;
+    }
 
-Explore
-About
-Programs
-Impact
-Partners
-Take Action
-Get Help
-Donate
-Volunteer
-Sponsor
-© 2026 Educational and Psychological Alliance for Wellness, Inc. All rights reserved.
+    .hero .logo-text {
+      font-size: 46px;
+    }
+
+    .hero .logo-sub {
+      font-size: 13px;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      border-radius: 999px;
+      padding: 8px 14px;
+      font-size: 13px;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: #E6C878;
+      background: rgba(255,255,255,0.1);
+      border: 1px solid rgba(255,255,255,0.15);
+      margin-bottom: 24px;
+    }
+
+    h1 {
+      font-size: clamp(42px, 5.5vw, 70px);
+      line-height: 1.02;
+      letter-spacing: -0.06em;
+      font-weight: 950;
+      max-width: 850px;
+    }
+
+    .hero p {
+      margin-top: 24px;
+      max-width: 680px;
+      font-size: 19px;
+      line-height: 1.75;
+      color: #dfdfdf;
+    }
+
+    .hero-buttons {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 32px;
+    }
+
+    .hero-card {
+      background: rgba(255,255,255,0.96);
+      color: var(--black);
+      border-radius: 32px;
+      padding: 34px;
+      box-shadow: 0 24px 80px rgba(0,0,0,0.25);
+      border: 1px solid rgba(255,255,255,0.12);
+    }
+
+    .section-label {
+      color: var(--gold-dark);
+      font-size: 12px;
+      font-weight: 950;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+
+    .hero-card h2,
+    .section-heading {
+      font-size: clamp(30px, 3.4vw, 52px);
+      line-height: 1.06;
+      letter-spacing: -0.04em;
+      font-weight: 950;
+    }
+
+    .hero-card p,
+    .section-copy {
+      color: var(--gray);
+      font-size: 17px;
+      line-height: 1.75;
+      margin-top: 18px;
+    }
+
+    .callout {
+      margin-top: 18px;
+      border-radius: 24px;
+      padding: 20px;
+      background: var(--cream);
+      border: 1px solid var(--border);
+    }
+
+    .callout.dark {
+      background: var(--black);
+      color: white;
+      border: none;
+    }
+
+    .callout strong {
+      display: block;
+      font-size: 17px;
+      margin-bottom: 4px;
+    }
+
+    section {
+      padding: 88px 0;
+    }
+
+    .white {
+      background: white;
+    }
+
+    .black {
+      background: var(--black);
+      color: white;
+    }
+
+    .stats {
+      padding: 56px 0;
+      background: white;
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 18px;
+    }
+
+    .stat {
+      background: var(--cream);
+      border: 1px solid var(--border);
+      border-radius: 28px;
+      padding: 26px;
+      text-align: center;
+    }
+
+    .stat-number {
+      font-size: 34px;
+      font-weight: 950;
+      color: var(--gold-dark);
+      line-height: 1;
+    }
+
+    .stat-label {
+      color: var(--gray);
+      font-size: 14px;
+      margin-top: 12px;
+      line-height: 1.55;
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: 0.82fr 1.18fr;
+      gap: 48px;
+      align-items: start;
+    }
+
+    .body-text {
+      color: var(--gray);
+      font-size: 18px;
+      line-height: 1.8;
+    }
+
+    .body-text p + p {
+      margin-top: 18px;
+    }
+
+    .body-text strong {
+      color: var(--black);
+    }
+
+    .center {
+      text-align: center;
+      max-width: 780px;
+      margin: 0 auto 48px;
+    }
+
+    .program-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 22px;
+    }
+
+    .card {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 32px;
+      padding: 30px;
+      box-shadow: 0 10px 34px rgba(0,0,0,0.04);
+      transition: all 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 20px 50px rgba(0,0,0,0.10);
+    }
+
+    .icon {
+      width: 56px;
+      height: 56px;
+      border-radius: 18px;
+      background: var(--soft-gold);
+      border: 1px solid var(--border);
+      color: var(--gold-dark);
+      display: grid;
+      place-items: center;
+      font-size: 26px;
+      margin-bottom: 20px;
+    }
+
+    .card h3 {
+      font-size: 24px;
+      line-height: 1.15;
+      font-weight: 950;
+      letter-spacing: -0.03em;
+    }
+
+    .card p {
+      color: var(--gray);
+      margin: 14px 0 22px;
+      line-height: 1.7;
+    }
+
+    .model-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 46px;
+      align-items: center;
+    }
+
+    .black .section-label {
+      color: #E6C878;
+    }
+
+    .black .section-copy {
+      color: #d6d6d6;
+    }
+
+    .steps {
+      display: grid;
+      gap: 14px;
+    }
+
+    .step {
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 26px;
+      padding: 18px;
+    }
+
+    .step-number {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: var(--gold);
+      color: white;
+      display: grid;
+      place-items: center;
+      font-weight: 950;
+      flex: 0 0 auto;
+    }
+
+    .donate-grid {
+      display: grid;
+      grid-template-columns: 0.9fr 1.1fr;
+      gap: 46px;
+      align-items: center;
+    }
+
+    .donation-options {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+    }
+
+    .donation-card {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 28px;
+      padding: 26px;
+    }
+
+    .donation-card strong {
+      font-size: 34px;
+      color: var(--gold-dark);
+      display: block;
+      line-height: 1;
+      margin-bottom: 12px;
+    }
+
+    .partner-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin-top: 40px;
+    }
+
+    .partner-box {
+      background: var(--cream);
+      border: 1px solid var(--border);
+      border-radius: 26px;
+      padding: 24px;
+      text-align: center;
+      font-weight: 950;
+    }
+
+    .sponsor-callout {
+      margin-top: 34px;
+      background: var(--black);
+      color: white;
+      border-radius: 32px;
+      padding: 46px;
+      text-align: center;
+    }
+
+    .sponsor-callout .logo-card {
+      margin-bottom: 24px;
+    }
+
+    .trust-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 46px;
+      align-items: center;
+    }
+
+    .trust-list {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 32px;
+      padding: 32px;
+    }
+
+    .trust-item {
+      display: flex;
+      gap: 12px;
+      background: var(--cream);
+      border-radius: 18px;
+      padding: 15px;
+      font-weight: 800;
+      color: var(--gray);
+    }
+
+    .trust-item + .trust-item {
+      margin-top: 12px;
+    }
+
+    .check {
+      color: var(--gold-dark);
+      font-weight: 950;
+    }
+
+    .transparency-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      margin-top: 36px;
+    }
+
+    .mini-card {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 26px;
+      padding: 24px;
+      font-weight: 950;
+    }
+
+    .mini-card span {
+      display: block;
+      color: var(--gray);
+      font-weight: 700;
+      font-size: 14px;
+      margin-top: 8px;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 0.9fr 1.1fr;
+      gap: 46px;
+    }
+
+    form {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 32px;
+      padding: 32px;
+      display: grid;
+      gap: 16px;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      border: 1px solid #D8C79C;
+      border-radius: 18px;
+      padding: 14px 16px;
+      font: inherit;
+      background: white;
+      outline: none;
+    }
+
+    textarea {
+      min-height: 130px;
+      resize: vertical;
+    }
+
+    input:focus, select:focus, textarea:focus {
+      border-color: var(--gold);
+      box-shadow: 0 0 0 4px var(--soft-gold);
+    }
+
+    .final-cta {
+      background: var(--black);
+      color: white;
+      text-align: center;
+    }
+
+    .final-cta .logo-card {
+      margin-bottom: 30px;
+    }
+
+    .final-cta h2 {
+      max-width: 900px;
+      margin: 0 auto;
+      font-size: clamp(32px, 4vw, 56px);
+      line-height: 1.06;
+      letter-spacing: -0.04em;
+      font-weight: 950;
+    }
+
+    .final-cta p {
+      max-width: 700px;
+      margin: 20px auto 30px;
+      color: #d7d7d7;
+      font-size: 18px;
+    }
+
+    footer {
+      background: #000;
+      color: white;
+      padding: 46px 0 30px;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr 0.8fr;
+      gap: 40px;
+    }
+
+    footer p {
+      color: #aaa;
+      margin-top: 16px;
+      max-width: 500px;
+      font-size: 14px;
+    }
+
+    footer h4 {
+      margin-bottom: 12px;
+      font-weight: 950;
+    }
+
+    footer a {
+      display: block;
+      color: #aaa;
+      font-size: 14px;
+      margin: 8px 0;
+    }
+
+    footer a:hover {
+      color: white;
+    }
+
+    .copyright {
+      border-top: 1px solid rgba(255,255,255,0.1);
+      margin-top: 38px;
+      padding-top: 22px;
+      color: #777;
+      font-size: 13px;
+    }
+
+    @media (min-width: 980px) {
+      .hero-watermark {
+        display: block;
+      }
+    }
+
+    @media (max-width: 960px) {
+      nav {
+        display: none;
+      }
+
+      .hero-grid,
+      .two-col,
+      .model-grid,
+      .donate-grid,
+      .trust-grid,
+      .contact-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .stats-grid,
+      .transparency-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .program-grid,
+      .donation-options,
+      .partner-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .actions .btn-light {
+        display: none;
+      }
+
+      .brand-subtitle {
+        display: none;
+      }
+    }
+
+    @media (max-width: 560px) {
+      .container {
+        width: min(100% - 28px, 1180px);
+      }
+
+      .hero {
+        padding: 68px 0 80px;
+      }
+
+      section {
+        padding: 68px 0;
+      }
+
+      .stats-grid,
+      .transparency-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-buttons {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .btn {
+        width: 100%;
+      }
+
+      .brand-title {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="container nav">
+      <a href="#top" class="brand" aria-label="EPAW home">
+        <span class="logo-card">
+          <span>
+            <span class="logo-text">EPAW</span>
+            <span class="logo-sub">Alliance for Wellness</span>
+          </span>
+        </span>
+        <span>
+          <span class="brand-title">EPAW</span><br>
+          <span class="brand-subtitle">Educational & Psychological Alliance for Wellness</span>
+        </span>
+      </a>
+
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#programs">Programs</a>
+        <a href="#impact">Impact</a>
+        <a href="#partners">Partners</a>
+        <a href="#transparency">Transparency</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="actions">
+        <a class="btn btn-light" href="#contact">Get Help</a>
+        <a class="btn btn-primary" href="#donate">Donate</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-watermark">EPAW</div>
+      <div class="container hero-grid">
+        <div>
+          <span class="logo-card">
+            <span>
+              <span class="logo-text">EPAW</span>
+              <span class="logo-sub">Educational & Psychological Alliance for Wellness</span>
+            </span>
+          </span>
+          <div class="eyebrow">501(c)(3) nonprofit expanding access to care</div>
+          <h1>Every family deserves access to answers, advocacy, and wellness.</h1>
+          <p>EPAW removes financial and access barriers so underserved children, adults, and families can receive educational, psychological, and mental health support when they need it most.</p>
+          <div class="hero-buttons">
+            <a class="btn btn-light" href="#contact">Get Help</a>
+            <a class="btn btn-primary" href="#donate">Donate Now</a>
+            <a class="btn btn-dark-outline" href="#partners">Partner With Us</a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="section-label">Why donors give</div>
+          <h2>The need is real. The solution is practical.</h2>
+          <p>Many families know something is wrong, but cannot afford the evaluation, counseling, or advocacy support needed to move forward. EPAW turns donor generosity into direct access.</p>
+
+          <div class="callout">
+            <strong>Your gift can fund answers.</strong>
+            <span>Evaluations, guidance, intervention planning, and parent education.</span>
+          </div>
+
+          <div class="callout dark">
+            <strong>Your partnership can build systems.</strong>
+            <span>Workshops, community screening events, and referral pathways.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="impact" class="stats">
+      <div class="container stats-grid">
+        <div class="stat">
+          <div class="stat-number">1,000+</div>
+          <div class="stat-label">Students, adults, and families to serve through direct support and community education</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">$2,600</div>
+          <div class="stat-label">Estimated cost of a comprehensive evaluation many families cannot afford without assistance</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">4</div>
+          <div class="stat-label">Core program pathways designed to remove barriers and expand access</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">501(c)(3)</div>
+          <div class="stat-label">IRS-recognized tax-exempt nonprofit organization</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container two-col">
+        <div>
+          <div class="section-label">About EPAW</div>
+          <h2 class="section-heading">Built to close the access gap.</h2>
+        </div>
+        <div class="body-text">
+          <p>The Educational and Psychological Alliance for Wellness, Inc. exists to provide educational, psychological, and mental health support to individuals and families who may otherwise be unable to access these services.</p>
+          <p>EPAW focuses on underserved communities, including families with limited financial resources, students with learning or behavioral concerns, and adults seeking clarity, support, and advocacy.</p>
+          <p><strong>Our goal is simple: help people receive the right information, support, and next steps before a challenge becomes a crisis.</strong></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="programs" class="white">
+      <div class="container">
+        <div class="center">
+          <div class="section-label">Programs</div>
+          <h2 class="section-heading">Fundable programs with measurable impact.</h2>
+          <p class="section-copy">EPAW organizes its work into clear program pathways so donors, sponsors, and grantmakers can see exactly how support becomes impact.</p>
+        </div>
+
+        <div class="program-grid">
+          <div class="card">
+            <div class="icon">🧠</div>
+            <h3>Evaluation Access Fund</h3>
+            <p>Helps children, teens, and adults access psychological, psychoeducational, autism, ADHD, learning, and social-emotional evaluations when cost is the primary barrier.</p>
+            <a class="btn btn-light" href="#contact">Sponsor an Evaluation</a>
+          </div>
+          <div class="card">
+            <div class="icon">💬</div>
+            <h3>Mental Health & Wellness Support</h3>
+            <p>Provides counseling support, wellness education, referral guidance, and intervention resources for individuals and families navigating emotional or behavioral concerns.</p>
+            <a class="btn btn-light" href="#contact">Fund Wellness Support</a>
+          </div>
+          <div class="card">
+            <div class="icon">🎓</div>
+            <h3>Parent & Student Advocacy Academy</h3>
+            <p>Equips families with practical tools to understand school supports, IEPs, 504 plans, evaluations, accommodations, and next steps after receiving results.</p>
+            <a class="btn btn-light" href="#contact">Support Training</a>
+          </div>
+          <div class="card">
+            <div class="icon">🤝</div>
+            <h3>School & Community Partnership Program</h3>
+            <p>Partners with schools, churches, civic groups, pediatric offices, and community organizations to deliver education, screenings, workshops, and referral pathways.</p>
+            <a class="btn btn-light" href="#partners">Become a Partner</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="black">
+      <div class="container model-grid">
+        <div>
+          <div class="section-label">Our Model</div>
+          <h2 class="section-heading">From concern to clarity.</h2>
+          <p class="section-copy">Families often begin with confusion, concern, or a school or medical recommendation. EPAW helps them move through a clear pathway of support.</p>
+        </div>
+        <div class="steps">
+          <div class="step"><span class="step-number">1</span><strong>Listen to the family’s concern</strong></div>
+          <div class="step"><span class="step-number">2</span><strong>Identify the needed support</strong></div>
+          <div class="step"><span class="step-number">3</span><strong>Connect the family to evaluation, counseling, training, or advocacy</strong></div>
+          <div class="step"><span class="step-number">4</span><strong>Provide practical next steps</strong></div>
+          <div class="step"><span class="step-number">5</span><strong>Track outcomes and community impact</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="donate">
+      <div class="container donate-grid">
+        <div>
+          <span class="logo-card">
+            <span>
+              <span class="logo-text">EPAW</span>
+              <span class="logo-sub">Alliance for Wellness</span>
+            </span>
+          </span>
+          <div style="height:24px"></div>
+          <div class="section-label">Donate</div>
+          <h2 class="section-heading">Give families access to answers.</h2>
+          <p class="section-copy">Every donation helps EPAW reduce barriers to evaluations, counseling, family education, and advocacy support.</p>
+          <div class="hero-buttons">
+            <a class="btn btn-primary" href="#contact">Donate Now</a>
+            <a class="btn btn-light" href="#contact">Start a Fundraiser</a>
+          </div>
+        </div>
+
+        <div class="donation-options">
+          <div class="donation-card"><strong>$50</strong><p>Provides family education materials and advocacy resources</p></div>
+          <div class="donation-card"><strong>$150</strong><p>Supports a parent consultation or service-navigation session</p></div>
+          <div class="donation-card"><strong>$500</strong><p>Helps underwrite testing materials, scoring, or clinical review</p></div>
+          <div class="donation-card"><strong>$2,600</strong><p>Sponsors a comprehensive evaluation for a family in need</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="partners" class="white">
+      <div class="container">
+        <div class="center">
+          <div class="section-label">Partners & Sponsors</div>
+          <h2 class="section-heading">Designed for serious community investment.</h2>
+          <p class="section-copy">EPAW welcomes mission-aligned partners who want to invest in educational access, mental health, disability advocacy, and community wellness.</p>
+        </div>
+
+        <div class="partner-grid">
+          <div class="partner-box">Corporate sponsors</div>
+          <div class="partner-box">Foundations and grantmakers</div>
+          <div class="partner-box">Schools and charter networks</div>
+          <div class="partner-box">Pediatric and medical practices</div>
+          <div class="partner-box">Faith-based and civic organizations</div>
+          <div class="partner-box">Individual major donors</div>
+        </div>
+
+        <div class="sponsor-callout">
+          <span class="logo-card">
+            <span>
+              <span class="logo-text">EPAW</span>
+              <span class="logo-sub">Alliance for Wellness</span>
+            </span>
+          </span>
+          <h2 class="section-heading">Create a named sponsorship fund.</h2>
+          <p class="section-copy">Sponsors may support evaluation scholarships, parent training cohorts, school-based workshops, community wellness days, or targeted support for specific populations.</p>
+          <a class="btn btn-light" href="#contact">Request Sponsorship Packet</a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container trust-grid">
+        <div>
+          <div class="section-label">Leadership & Governance</div>
+          <h2 class="section-heading">Credibility donors can trust.</h2>
+          <p class="section-copy">EPAW is board-governed and built with the compliance, structure, and stewardship expected of a high-performing nonprofit organization.</p>
+          <div style="margin-top:26px">
+            <a class="btn btn-light" href="#contact">Request Board Information</a>
+          </div>
+        </div>
+
+        <div class="trust-list">
+          <h3 style="font-size:28px;font-weight:950;margin-bottom:18px;">Trust markers</h3>
+          <div class="trust-item"><span class="check">✓</span> IRS-recognized 501(c)(3) nonprofit</div>
+          <div class="trust-item"><span class="check">✓</span> Board-governed organization</div>
+          <div class="trust-item"><span class="check">✓</span> Conflict of interest policy and bylaws adopted</div>
+          <div class="trust-item"><span class="check">✓</span> Mission-aligned with underserved communities</div>
+          <div class="trust-item"><span class="check">✓</span> Designed for measurable outcomes and responsible stewardship</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="transparency" class="white">
+      <div class="container">
+        <div class="center">
+          <div class="section-label">Transparency</div>
+          <h2 class="section-heading">Responsible stewardship. Clear reporting.</h2>
+          <p class="section-copy">EPAW is committed to transparent reporting, responsible financial management, and measurable outcomes. As the organization grows, this section will include annual reports, IRS filings, impact dashboards, and financial summaries.</p>
+        </div>
+
+        <div class="transparency-grid">
+          <div class="mini-card">IRS Determination<span>Coming soon</span></div>
+          <div class="mini-card">Annual Report<span>Coming soon</span></div>
+          <div class="mini-card">Form 990<span>Coming soon</span></div>
+          <div class="mini-card">Impact Dashboard<span>Coming soon</span></div>
+        </div>
+
+        <p style="max-width:760px;margin:34px auto 0;text-align:center;color:var(--gray);font-size:14px;">
+          Tax-deductibility depends on individual circumstances. Donors should consult their tax advisor regarding charitable contributions.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container contact-grid">
+        <div>
+          <div class="section-label">Contact EPAW</div>
+          <h2 class="section-heading">Get help, give help, or build with us.</h2>
+          <p class="section-copy">Whether you are a family seeking support, a donor ready to give, or an organization interested in partnership, EPAW would love to hear from you.</p>
+
+          <div class="body-text" style="margin-top:30px">
+            <p><strong>Email:</strong> info@epaw.org</p>
+            <p><strong>Phone:</strong> (XXX) XXX-XXXX</p>
+            <p><strong>Service Area:</strong> Metro Atlanta and surrounding communities</p>
+          </div>
+        </div>
+
+        <form>
+          <input type="text" placeholder="Name" aria-label="Name">
+          <input type="email" placeholder="Email" aria-label="Email">
+          <select aria-label="Reason for contact">
+            <option>I need support</option>
+            <option>I want to donate</option>
+            <option>I want to partner or sponsor</option>
+            <option>I am interested in volunteering</option>
+            <option>Other</option>
+          </select>
+          <textarea placeholder="Tell us how EPAW can help..." aria-label="Message"></textarea>
+          <button class="btn btn-primary" type="button">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <div class="container">
+        <span class="logo-card">
+          <span>
+            <span class="logo-text">EPAW</span>
+            <span class="logo-sub">Alliance for Wellness</span>
+          </span>
+        </span>
+        <h2>Join the movement to make evaluations, advocacy, and wellness support accessible to every family.</h2>
+        <p>Give once. Give monthly. Sponsor a family. Fund a program. Build a healthier future with EPAW.</p>
+        <div class="hero-buttons" style="justify-content:center">
+          <a class="btn btn-light" href="#donate">Donate Now</a>
+          <a class="btn btn-dark-outline" href="#partners">Become a Partner</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <div class="brand">
+          <span class="logo-card">
+            <span>
+              <span class="logo-text">EPAW</span>
+              <span class="logo-sub">Alliance for Wellness</span>
+            </span>
+          </span>
+          <span class="brand-title">EPAW</span>
+        </div>
+        <p>Educational and Psychological Alliance for Wellness, Inc. is an IRS-recognized 501(c)(3) nonprofit expanding access to educational, psychological, and mental health support.</p>
+      </div>
+
+      <div>
+        <h4>Explore</h4>
+        <a href="#about">About</a>
+        <a href="#programs">Programs</a>
+        <a href="#impact">Impact</a>
+        <a href="#partners">Partners</a>
+      </div>
+
+      <div>
+        <h4>Take Action</h4>
+        <a href="#contact">Get Help</a>
+        <a href="#donate">Donate</a>
+        <a href="#contact">Volunteer</a>
+        <a href="#partners">Sponsor</a>
+      </div>
+    </div>
+
+    <div class="container copyright">
+      © 2026 Educational and Psychological Alliance for Wellness, Inc. All rights reserved.
+    </div>
+  </footer>
+</body>
+</html>
+
