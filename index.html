@@ -1034,19 +1034,23 @@
           </div>
         </div>
 
-        <form>
-          <input type="text" placeholder="Name" aria-label="Name">
-          <input type="email" placeholder="Email" aria-label="Email">
-          <select aria-label="Reason for contact">
-            <option>I need support</option>
-            <option>I want to donate</option>
-            <option>I want to partner or sponsor</option>
-            <option>I am interested in volunteering</option>
-            <option>Other</option>
-          </select>
-          <textarea placeholder="Tell us how EPAW can help..." aria-label="Message"></textarea>
-          <button class="btn btn-primary" type="button">Send Message</button>
-        </form>
+        <form action="https://formspree.io/f/xrpgoljd" method="POST">
+  <input type="text" name="name" placeholder="Name" aria-label="Name" required>
+
+  <input type="email" name="email" placeholder="Email" aria-label="Email" required>
+
+  <select name="reason" aria-label="Reason for contact" required>
+    <option value="">Select a reason</option>
+    <option>I need support</option>
+    <option>I want to donate</option>
+    <option>I want to partner or sponsor</option>
+    <option>I am interested in volunteering</option>
+    <option>Other</option>
+  </select>
+
+  <textarea name="message" placeholder="Tell us how EPAW can help..." aria-label="Message" required></textarea>
+
+  <button clas
       </div>
     </section>
 
