@@ -69,19 +69,39 @@
       min-width: 260px;
     }
 
-    .logo-card {
-      background: white;
-      border: 1px solid var(--border);
-      border-radius: 18px;
-      padding: 10px 14px;
-      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 950;
-      color: var(--black);
-    }
+   .logo-card {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 10px 14px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 950;
+  color: var(--black);
+}
 
+.epaw-logo {
+  display: block;
+  width: 120px;
+  height: auto;
+}
+
+.hero .epaw-logo {
+  width: 240px;
+  max-width: 100%;
+}
+
+.final-cta .epaw-logo,
+.sponsor-callout .epaw-logo {
+  width: 180px;
+  max-width: 100%;
+}
+
+footer .epaw-logo {
+  width: 120px;
+}
     .logo-text {
       font-size: 22px;
       letter-spacing: -0.04em;
@@ -763,11 +783,11 @@
     <div class="container nav">
       <a href="#top" class="brand" aria-label="EPAW home">
         <span class="logo-card">
-          <span>
-            <span class="logo-text">EPAW</span>
-            <span class="logo-sub">Alliance for Wellness</span>
-          </span>
-        </span>
+  <img src="epaw-logo.svg"
+       alt="Educational and Psychological Alliance for Wellness"
+       class="epaw-logo">
+</span>
+       
         <span>
           <span class="brand-title">EPAW</span><br>
           <span class="brand-subtitle">Educational & Psychological Alliance for Wellness</span>
